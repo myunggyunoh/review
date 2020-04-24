@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG,"onClickonClickonClickonClickonClick");
+                //커밋테스트
 
                 String uri = "http://172.30.1.28:8080/";
                 Retrofit retrofit = RetrofitClient.getClient(uri);
